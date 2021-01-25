@@ -62,9 +62,26 @@
         git fetch [원격저장소명] [brach명] //merge하지 않음
 ![이미지](https://i.ytimg.com/vi/0nqJKEh3YCc/maxresdefault.jpg "pull push fetch")
 #### 1.2.4. branch
++ branch: 보다 쉬운 버전관리를 위해 새로운 brach(가지)를 생성하여 수정과 테스트를 해보고 완성되면 원본에 적용하는 식으로 원본을 보존할 수 있는 기능
+        
+        git branch //현재 위치한 브랜치 및 브랜치 목록 출력
+        git branch -v //더 자세한 브랜치 정보 출력
+        git branch [new] // new branch 생성
+        git branch [기존브랜치명] [새 브랜치명] //기존브랜치를 복제한 new branch생성
+        git branch -b [new] //new branch의 생성과 이동을 한 번에 수행
+        git checkout [branch] //입력한 branch로 이동
+        git checkout - //이전에 위치한 branch로 이동
+        
 #### 1.2.5. merge
++ merge: brach 병합
+
+        git merge [branch] //현 브랜치에 branch를 가져와 병합
+        
++ conflict: merge 중 한 파일에 각각 다르게 수정된 부분이 있다면 충돌발생
+  - 충돌이 발생한 파일을 열어 직접 수정.
 
 ## 1.3. Markdown
 
 [참고사이트]
 * [코끼리를 냉장고에 넣는방법::Git](https://dololak.tistory.com/304)
+* [사바라다는 차곡차곡](https://sabarada.tistory.com/75)
