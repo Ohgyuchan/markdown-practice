@@ -18,8 +18,26 @@
     
 ## 1.2. git, github 사용법
 #### 1.2.1. commit
+##### 1.2.1.1 영역
++ Working Directory: 프로젝트를 진행하는 실제 작업 공간으로 개발한 소스 및 자원이 존재하며 이곳에서 파일을 수정 및 추가
++ Staging Area: 워킹 디렉터리에서 작업한 내역을 Git 디렉터리로 커밋 하기 위해 커밋 대상 목록으로 담아두는 장바구니 목록 같은 영역
++ Git Directory: 실제로는 .git 이라는 이름의 디렉터리이며, 여러가지 버전의 커밋 데이터들과 Git 프로젝트에 대한 모든 정보를 담고 있는 핵심 데이터베이스 디렉토리
+
+##### 1.2.1.2 Untracked와 Tracked 상태
++ 워킹 디렉터리에 있는 여러가지 파일들은 Git의 추적 관리 여부에 따라 각각 크게 두 가지 상태로 나눌 수 있다.
++ Tracked: Git이 해당 파일을 추적 및 관리하는 상태
++ Untracked: 반대로 아직 Git이 해당 파일을 추적 및 관리하지 않는 상태
+
+##### 1.2.1.3 Unmodified와 Modified 상태
++ Untracked와 Tracked가 추적 관리 여부 관점에서 바라본 상태 였다면, 파일의 변경 여부에 따라 **Modified(변경 발생)** 과 **Unmodifed(변경 없음)** 상태로 나눌 수 있습니다.
+
+##### 1.2.1.4 Staged 상태
+
 #### 1.2.2. repository
 #### 1.2.3. branch
 #### 1.2.4. merge
 
 ## 1.3. Markdown
+
+[참고사이트]
+* [코끼리를 냉장고에 넣는방법::Git](https://dololak.tistory.com/304)
