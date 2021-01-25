@@ -60,6 +60,7 @@
         git push [원격저장소명] [brach명]
         git pull [원격저장소명] [brach명] //자동 merge 시도
         git fetch [원격저장소명] [brach명] //merge하지 않음
+![이미지](https://i.ytimg.com/vi/0nqJKEh3YCc/maxresdefault.jpg "pull push fetch")
 #### 1.2.4. branch
 #### 1.2.5. merge
 
