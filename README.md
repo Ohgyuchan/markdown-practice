@@ -32,13 +32,14 @@
 + Untracked와 Tracked가 추적 관리 여부 관점에서 바라본 상태 였다면, 파일의 변경 여부에 따라 **Modified(변경 발생)**과 **Unmodifed(변경 없음)** 상태로 나눌 수 있습니다.
 
 ##### 1.2.1.4 Staged 상태
-+ Git이 관리하지 않는 상태인 Untracked 파일은 두 가지 변경 관련 상태를 갖지 않으며, 이말은 곧 Unmodified 또는 Modified 상태인 파일은 곧 Tracked 상태
 + Staged: Untracked 파일이나 Modified 상태인 파일을 Staging Area에 내역을 등록하지 않은 상태
 
 ##### 1.2.1.5
-+ git add
++ git add: __untracked__파일을 __tracked__로 상태로 바꿈
+
         git add [파일명]
-+ git commit
++ git commit: commit을 남겨 staged 파일을 관리
+
         git commit
         git commit -m "message"
 
