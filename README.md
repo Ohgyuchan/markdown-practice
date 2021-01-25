@@ -15,7 +15,7 @@
 #### 1.1.3 git, github 차이점
 + git: 로컬에서 버전 관리 시스템을 운영하는 방식
 + github: Github는 깃허브에서 제공해주는 클라우드 서버를 이용하는 방식
-    
+            
 ## 1.2. git, github 사용법
 #### 1.2.1. commit
 ##### 1.2.1.1 영역
@@ -38,12 +38,18 @@
 + git add: __untracked__파일을 __tracked__로 상태로 바꿈
 
         git add [파일명]
-+ git commit: commit을 남겨 staged 파일을 관리
++ git commit: Staging Area에 있는 Staged 파일에 대한 commit을 남김
 
-        git commit
-        git commit -m "message"
+        git commit // 자세한 커밋 vim 화면으로 넘어감
+        git commit -m "message" //한 줄 메세지 커밋
 
 #### 1.2.2. repository
++ Repository: 저장소
+  - Local Repository: 로컬저장소
+  - Git Repository: Git저장소
+    + 원격 Repository: Github저장소와 로컬저장소를 원격으로 연결
+        
+                git
 #### 1.2.3. branch
 #### 1.2.4. merge
 
