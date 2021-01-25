@@ -2,7 +2,7 @@
 
 ## 1.1. git과 github에 대하여
 #### 1.1.1. git에 대하여
-      + 로컬에서 관리되는 버전 관리 시스템 (VCS : Version Control System)
+* 로컬에서 관리되는 버전 관리 시스템 (VCS : Version Control System)
       + 소스코드 수정에 따른 버전을 관리해주는 시스템
         
 #### 1.1.2. github에 대하여
