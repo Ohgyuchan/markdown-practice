@@ -45,13 +45,23 @@
 
 #### 1.2.2. repository
 + Repository: 저장소
-  - Local Repository: 로컬저장소
-  - Git Repository: Git저장소
-    + 원격 Repository: Github저장소와 로컬저장소를 원격으로 연결
-        
-                git
-#### 1.2.3. branch
-#### 1.2.4. merge
+   - Local Repository: 로컬저장소
+   - Git Repository: Git을 사용할 수 있는, Git으로 관리하는 저장소
+   - 원격 Repository: 내 로컬PC에 있는 저장소가 아닌 네트워크상에 있는 저장소    
+                
+                git init //로컬저장소를 Git저장소로 변경 .git 폴더가 생성
+                git remote add [링크] //원격저장소 연결
+                
+#### push pull fetch
++ git push: 현재 프로젝트의 커밋된(HEAD) 내용을 원격 저장소로 내보내는 명령어
++ git pull: 원격 저장소에서 로컬 저장소로 소스를 가져오는 명령어(merge)
++ git fetch: 원격 저장소에서 로컬 저장소로 소스를 가져오는 명령어(not merge)-conflict 방지
+
+        git push [원격저장소명] [brach명]
+        git pull [원격저장소명] [brach명] //자동 merge 시도
+        git fetch [원격저장소명] [brach명] //merge하지 않음
+#### 1.2.4. branch
+#### 1.2.5. merge
 
 ## 1.3. Markdown
 
